@@ -5,3 +5,19 @@ html {
 .logo {
     width: 3rem;
 }
+
+.title-plans {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title-plans h1 {
+    text-align: center;
+    width: 30%;
+}
+.plans {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
