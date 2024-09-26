@@ -6,10 +6,17 @@ html {
     width: 3rem;
 }
 
+
 .banner {
+    margin-top: 60px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.slogan {
+   align-items: right;
+   margin-bottom: 40px;
 }
 
 .chamada {
