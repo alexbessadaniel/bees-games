@@ -2,8 +2,16 @@ html {
     font-size: 62,5%;
 }
 
+.header {
+    width: 100%;
+}
+
 .logo {
     width: 3rem;
+}
+
+main {
+    width: 100%;
 }
 
 .banner {
