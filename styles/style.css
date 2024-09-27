@@ -1,5 +1,6 @@
 html {
-    font-size: 62,5%;
+    font-size: 62, 5%;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -15,16 +16,11 @@ main {
 }
 
 .banner {
-    margin-top: 60px;
+    margin-top: 6rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-}
-
-.slogan {
-   align-items: right;
-   margin-bottom: 40px;
 }
 
 .chamada {
@@ -51,11 +47,75 @@ main {
     text-align: center;
     width: 40%;
 }
+
 .plans {
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
+}
+
+.novidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.chamada-slogan {
+    width: 45%;
+    height: 30rem;
+    /* margin-left: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chamada-slogan h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.chamada-slogan p {
+    margin-bottom: 5rem;
+}
+
+.chamada-slogan a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.chamada-slogan button:hover {
+    background-color: #ffc107;
+}
+
+.slogan img {
+    width: 45%;
+    border-radius: 1.5rem;
+    /* margin-right: 2rem; */
+}
+
+.colecoes {
+    width: 100%;
+}
+
+.surpresa {
+    display: none;
+}
+
+.colecoes img {
+    width: 100%;
 }
 
 footer {
@@ -66,7 +126,7 @@ footer {
     height: 10rem;
 }
 
-@media (max-width: 800px ) {
+@media (max-width: 800px) {
     .chamada {
         display: none;
     }
@@ -78,5 +138,13 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+    }
+
+    .slogan {
+        display: none;
+    }
+
+    .surpresa {
+        display: block;
     }
 }
